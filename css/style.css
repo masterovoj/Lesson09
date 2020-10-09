@@ -1,0 +1,434 @@
+/* START FONTS */
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.eot');
+    src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
+        url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
+        url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Heavy.eot');
+    src: local('Gilroy Heavy'), local('Gilroy-Heavy'),
+        url('../fonts/Gilroy-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Heavy.woff') format('woff'),
+        url('../fonts/Gilroy-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-SemiBold.eot');
+    src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
+        url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-SemiBold.woff') format('woff'),
+        url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Regular.woff') format('woff'),
+        url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.eot');
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Medium.woff') format('woff'),
+        url('../fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Bold.woff') format('woff'),
+        url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* END FONTS */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Start стилей блоков div */
+
+.wrapper {
+    background: url("../img/bg.png") right no-repeat;
+    background-size: 50% 100%;
+}
+.header {
+    padding-top: 20px;
+    
+}
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+/* End стилей блоков div */
+
+/* Start стилей для блока TOP */
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 25px;
+} 
+.logo a {
+    text-decoration: none;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 52px;
+    color: #E1E1E1;
+}
+.name {
+    display: inline-block;
+    vertical-align: top;
+    border-left: 2px solid #89AFEF;
+    padding-left: 25px;
+}
+.name p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5D5D5D;
+}    
+.ico {
+    display: inline-block;
+    vertical-align: top;
+}
+.whatsapp {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background: url("../img/whatsapp-ico.png") 12px 12px no-repeat #2DD038;
+    margin-left: 70px;
+} 
+.whatsapp:hover {
+    box-shadow: 0px 8px 25px rgba(45, 208, 56, 0.497678);
+    cursor: pointer;
+}
+.viber {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background: url("../img/viber-ico.png") 12px 12px no-repeat #7B519D;
+    margin-left: 20px;
+}
+.viber:hover{
+    box-shadow: 0px 8px 25px rgba(123, 81, 157, 0.503797);
+    cursor: pointer;
+}
+.telega{
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background: url("../img/telegram_ico.png") 12px 14px no-repeat #5BBAF0;
+    margin-left: 20px;
+}
+.telega:hover{
+    box-shadow: 0px 8px 25px rgba(91, 186, 240, 0.5);
+    cursor: pointer;
+}    
+.contacts {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 200px; 
+    text-align: right;
+    margin-left: 100px;
+}
+.tel {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    padding-left: 25px;
+    background: url("../img/tel_ico.png") 0px 3px no-repeat;
+}
+.tel:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.mail {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: right;
+    color: #333333;
+    padding-left: 25px;
+    background: url("../img/mail_ico.png") 30px 4px no-repeat;
+}
+.mail:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btn {
+    display: inline-block;
+    /* ВАЖНО ПРИ ВКЛЮЧЕНИИ INLAINE-BLOCK НАЧИНАЮТ ДЕЙСТВОВАТЬ VERTICAL-ALIGN */
+    vertical-align: top;
+    margin-left: 30px;
+    height: 44px;
+    padding: 0px 20px;
+    background: linear-gradient(90deg, #F6BD60 0%, #E88952 100%); 
+    border-radius: 3px; 
+    line-height: 44px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;    
+    color: black;  
+}
+.btn:hover {
+    box-shadow: 0px 8px 18px rgba(242, 147, 81, 0.450503);
+    cursor: pointer;
+}
+
+/* End стилей для блока TOP */
+
+/* Start стилей блока MENU */
+.list {
+    text-align: center;
+}
+.list li {
+    display:inline-block; 
+    text-transform:uppercase;
+    margin-top: 40px;
+    padding-right: 40px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.list li a {
+    text-decoration: none;
+    color: #333333; 
+}
+.list li a:hover{
+    text-decoration: underline;
+    color: rgba(55, 55, 206, 0.705);
+}
+/* End стилей блока MENU */
+
+/* Start стилей блока MAIN */
+.text {
+    max-width: 675px;
+    margin-top: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+.title {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 51px;
+    color: #333333;
+}
+.price {
+    padding: 30px 0px;
+}
+.normal {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #333333;
+}
+.bold {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 31px;
+    color: #333333;
+    padding-left: 10px;
+}
+.text-btn {
+    width: 210px;
+    height: 50px;
+    text-align: center;
+    background: linear-gradient(90deg, #87AFF1 0%, #6C80CB 100%, #6C80CB 100%);
+    border-radius: 3px;
+    padding: 15px 0px;
+}
+.text-btn:hover {
+    box-shadow: 0px 12px 20px rgba(132, 170, 237, 0.454846);
+}
+.text-btn a {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.image {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.image img {
+    padding-top: 10px;
+    width: 390px;
+    height: 562px;
+}
+/* End стилей блока MAIN */
+
+/* Start стилей картины с машинкой */
+.car-wrapper {
+    background-color: black;
+    
+}
+.car-title {
+    padding: 30px;
+    color: #fff;
+    font-family: Gilroy;
+    font-size: 42px;
+    text-align: center;
+}
+.year {
+    display: inline-block;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 32px;
+}
+.sky {
+    position: relative;
+    z-index: 1;
+    background-color: black;
+}
+.sky img {
+    width: 100%;
+}
+.city {
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    z-index: 2;
+}
+.city img {
+    width: 100%;
+}
+.front {
+    display: inline-block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    /* background-color: gray; */
+    left: 840px;
+    top: 356px;
+    z-index: 11;
+    opacity: 0;
+}
+.front:hover {
+    opacity: 1;
+}
+.girls {
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    top: 5px;
+    z-index: 2;
+}
+.girls img {
+    width: 200px;
+}
+.yellow {
+    position: absolute;
+    display: inline-block;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+}
+.yellow img {
+    width: 100%;
+    opacity: 0.1;
+}
+.car {
+    display: inline-block;
+    position: absolute;
+    left: 250px;
+    top: 448px;
+    z-index: 4;
+}
+.car img {
+    width: 600px;    
+}
+.back {
+    display: inline-block;
+    position: absolute;
+    width: 265px;
+    height: 400px;
+    left: 0px;
+    top: 256px;
+    /* background-color: gray; */
+    z-index: 3;
+    opacity: 0;
+}
+.back:hover {
+    opacity: 1;
+}
+.wich {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    z-index: 2;
+}
+.wich img {
+    width: 250px;
+}
+
+.red {
+    display: inline-block;
+    position: absolute;
+    width: 260px;
+    height: 300px;
+    left: 0px;
+    top: 106px;
+    z-index: 1;
+}
+.red img {
+    width: 100%;
+    opacity: 0.2;
+}
+
+
+/* End стилей картины с машинкой */
+
+
+
